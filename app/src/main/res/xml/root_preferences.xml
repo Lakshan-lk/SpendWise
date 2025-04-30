@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="General Settings"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="currency"
+            android:title="Currency"
+            android:summary="Select your preferred currency"
+            android:defaultValue="LKR"
+            android:entries="@array/currency_names"
+            android:entryValues="@array/currency_values"
+            app:iconSpaceReserved="false" />
+            
+        <SwitchPreferenceCompat
+            android:key="theme_mode"
+            android:title="Dark Mode"
+            android:summary="Enable to use dark theme"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+            android:key="notifications"
+            android:title="Notifications"
+            android:summary="Enable to receive notifications"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Data Management"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="backup_data"
+            android:title="Backup Data"
+            android:summary="Backup your user data and preferences"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="restore_data"
+            android:title="Restore Data"
+            android:summary="Restore your user data from backup"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Account"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="logout"
+            android:title="Logout"
+            android:summary="Log out from your account"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

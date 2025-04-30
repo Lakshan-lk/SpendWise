@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#4592E0</color>
+    <color name="blue2">#7cb3e9</color>
+    <color name="gray">#e6e6e6</color>
+    <color name="darkblack">#808080</color>
+    <color name="darkblack2">#e6e6e6</color>
+    <color name="green2">#6CBF88</color>
+    <color name="green3">#6CBF88</color>
+    <color name="grey">#CCCCCC</color>
+    <color name="greenincome">#66ff66</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <!-- Colors for transaction amounts -->
+    <color name="income_green">#4CAF50</color>
+    <color name="expense_red">#F44336</color>
+    <color name="gray_neutral">#9E9E9E</color>
+    <!-- Navigation colors to match nav_icon_color_selector.xml -->
+    <color name="accent">@color/teal_200</color>  <!-- Using existing teal color -->
+    <color name="inactive">#757575</color>         <!-- Medium gray for inactive state -->
+</resources>
