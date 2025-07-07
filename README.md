@@ -38,7 +38,7 @@ Export data to PDF or Excel
 
 Dark mode UI
 
-📧 Contact
+📧 Contact 
 
 Created with ❤️ by Lakshan Ekanayaka Feel free to connect on www.linkedin.com/in/lakshan-ekanayaka
 
